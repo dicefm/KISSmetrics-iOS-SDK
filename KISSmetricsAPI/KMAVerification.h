@@ -22,6 +22,8 @@
 #import <Foundation/Foundation.h>
 #import "KMAVerificationDelegateProtocol.h"
 
+extern NSMutableString *kKMAVerificationUrl;
+
 @interface KMAVerification : NSObject <NSURLConnectionDelegate, NSURLConnectionDataDelegate>
 
 @property (nonatomic, weak) id <KMAVerificationDelegate> delegate;

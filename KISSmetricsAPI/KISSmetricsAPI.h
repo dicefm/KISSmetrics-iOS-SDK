@@ -27,6 +27,7 @@ typedef NS_ENUM(NSInteger, KMARecordCondition) {
     KMARecordOncePerIdentity
 };
 
+extern NSMutableString *kKMAVerificationUrl;
 
 @interface KISSmetricsAPI : NSObject
 
